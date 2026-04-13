@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Profile photo placeholder  replace with your image">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <text x="200" y="215" text-anchor="middle" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="600">KG</text>
+  <text x="200" y="260" text-anchor="middle" fill="#64748b" font-family="Inter, system-ui, sans-serif" font-size="14">Replace in site.js</text>
+</svg>

@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+:root {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Dark (default) */
+:root,
+[data-theme='dark'] {
+  --surface-main: #0f172a;
+  --surface-section: #1e293b;
+  --surface-card: #111827;
+  --surface-subtle: #0f172a;
+  --surface-muted: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-faint: #64748b;
+  --border-color: rgb(255 255 255 / 0.1);
+  --border-strong: rgb(255 255 255 / 0.15);
+  --nav-bg: rgb(15 23 42 / 0.88);
+  --nav-pill: rgb(255 255 255 / 0.1);
+  --shadow-card: 0 10px 40px -12px rgb(0 0 0 / 0.45);
+  --hero-glow: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    rgb(59 130 246 / 0.25),
+    transparent 55%
+  );
+}
+
+[data-theme='light'] {
+  --surface-main: #ffffff;
+  --surface-section: #f8fafc;
+  --surface-card: #ffffff;
+  --surface-subtle: #f1f5f9;
+  --surface-muted: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --text-faint: #94a3b8;
+  --border-color: rgb(15 23 42 / 0.12);
+  --border-strong: rgb(15 23 42 / 0.18);
+  --nav-bg: rgb(255 255 255 / 0.9);
+  --nav-pill: rgb(15 23 42 / 0.08);
+  --shadow-card: 0 10px 40px -12px rgb(15 23 42 / 0.1);
+  --hero-glow: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    rgb(59 130 246 / 0.18),
+    transparent 55%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--surface-main);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:
+    background-color 0.35s ease,
+    color 0.35s ease;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+::selection {
+  background-color: rgb(59 130 246 / 0.35);
+  color: #fff;
+}
+
+[data-theme='light']::selection {
+  color: var(--text-primary);
+}

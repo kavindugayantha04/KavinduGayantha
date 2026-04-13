@@ -1,0 +1,60 @@
+export const SKILL_GROUPS = [
+  {
+    title: 'Programming',
+    iconKey: 'programming',
+    items: ['Python', 'Java', 'JavaScript', 'C', 'SQL'],
+  },
+  {
+    title: 'Web Development',
+    iconKey: 'web',
+    items: [
+      'HTML',
+      'CSS',
+      'React.js',
+      'Node.js',
+      'Express.js',
+      'JSP',
+      'Servlets',
+      'Bootstrap',
+      'Thymeleaf',
+    ],
+  },
+  {
+    title: 'Databases',
+    iconKey: 'database',
+    items: ['MongoDB', 'MySQL', 'Microsoft SQL Server'],
+  },
+  {
+    title: 'Machine Learning / Data Science',
+    iconKey: 'ml',
+    items: [
+      'Pandas',
+      'NumPy',
+      'TensorFlow',
+      'Keras',
+      'Scikit-learn',
+      'Classification',
+      'Clustering',
+      'Data Visualization',
+    ],
+  },
+  {
+    title: 'Tools & Platforms',
+    iconKey: 'tools',
+    items: [
+      'Git',
+      'GitHub',
+      'VS Code',
+      'IntelliJ IDEA',
+      'Streamlit',
+      'Flask',
+      'Arduino IDE',
+      'Postman',
+    ],
+  },
+  {
+    title: 'Concepts',
+    iconKey: 'concepts',
+    items: ['MVC', 'Agile', 'REST APIs', 'OOP', 'CRUD', 'File Handling'],
+  },
+]
