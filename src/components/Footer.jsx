@@ -33,7 +33,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-3">
           <a
-            href={SITE.githubUrl}
+            href="https://github.com/kavindugayantha04"
             target="_blank"
             rel="noreferrer noopener"
             className="rounded-lg p-2 text-[var(--text-muted)] transition hover:bg-[var(--nav-pill)] hover:text-[var(--text-primary)]"
@@ -42,7 +42,7 @@ export function Footer() {
             <GitHubIcon className="h-5 w-5" />
           </a>
           <a
-            href={SITE.linkedinUrl}
+            href="https://www.linkedin.com/in/kavindu-gayantha-02963931b"
             target="_blank"
             rel="noreferrer noopener"
             className="rounded-lg p-2 text-[var(--text-muted)] transition hover:bg-[var(--nav-pill)] hover:text-[var(--text-primary)]"
